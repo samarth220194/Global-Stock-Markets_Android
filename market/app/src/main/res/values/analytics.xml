@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-52182522-7</string>
+    <!-- enable automatic activity tracking -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!-- enable automatic exception tracking -->
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+
+    <string name="com.global.market.MainActivity">Home Page</string>
+    <string name="com.global.market.detailactivity">Detail Page</string>
+</resources>

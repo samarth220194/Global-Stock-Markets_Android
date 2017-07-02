@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:drawable/btn_dropdown"
+            android:spinnerMode="dropdown" />
+
+        <item
+            android:id="@+id/nav_asia"
+            android:icon="@drawable/asia"
+            android:title="Asia"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_south_america"
+            android:icon="@drawable/samerica"
+            android:title="South America"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_europe"
+            android:icon="@drawable/europe"
+            android:title="Europe"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_north_america"
+            android:icon="@drawable/namerica"
+            android:title="North America"
+            android:checkable="false" />
+        <item
+            android:id="@+id/nav_australia"
+            android:icon="@drawable/australia1"
+            android:title="Australia"
+            android:checkable="false"/>
+        <item
+            android:id="@+id/nav_africa"
+            android:icon="@drawable/africa"
+            android:title="Africa"
+            android:checkable="false"/>
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/shareit"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_feedback"
+                android:icon="@drawable/feedback"
+                android:title="Feedback" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/rateus"
+                android:title="Rate Us" />
+            <item
+                android:id="@+id/nav_more_apps"
+                android:icon="@drawable/more_app"
+                android:title="More Apps" />
+        </menu>
+    </item>
+
+</menu>

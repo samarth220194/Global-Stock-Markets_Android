@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Global Stock Markets</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_refresh">Refresh</string>
+
+    <!--&lt;!&ndash; Nav Drawer Menu Items &ndash;&gt;-->
+    <!--<string-array name="nav_drawer_items">-->
+        <!--<item >Share</item>-->
+        <!--<item >Feedback</item>-->
+        <!--<item >Rate Us</item>-->
+        <!--<item >More Apps</item>-->
+    <!--</string-array>-->
+
+    <!--&lt;!&ndash; Nav Drawer List Item Icons &ndash;&gt;-->
+    <!--&lt;!&ndash; Keep them in order as the titles are in &ndash;&gt;-->
+    <!--<array name="nav_drawer_icons">-->
+        <!--<item>@drawable/shareit</item>-->
+        <!--<item>@drawable/feedback</item>-->
+        <!--<item>@drawable/rateus</item>-->
+        <!--<item>@drawable/more_app</item>-->
+    <!--</array>-->
+
+</resources>
